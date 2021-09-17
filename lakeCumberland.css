@@ -42,10 +42,17 @@ nav {
     margin: 0;
     padding: 3px;
     width:1000;
-    border: 2px solid blue;
+    border: 2px solid cadetblue;
     background-color:aqua;
 }
-
+li .dropdown-menu {
+    background-color: navajowhite;
+    color: blue;
+    
+}
+li .dropdown-item {
+color: blue;
+}
 
 li a {
     display: flex;
@@ -53,14 +60,19 @@ li a {
     text-decoration: none;
     list-style: none;
     margin: 1px;
-    background-color:blanchedalmond;
+    background-color:navajowhite;
     line-height: 1.0px;
-    
-  }
+    color: blue;
+ }
     
 li a:hover {
-    background-color:cadetblue;
-    
+    background-color:cadetblue;         
+}
+li a .dropdown {
+    background-color: navajowhite;
+}
+.dropdown :hover {
+    background-color: cadetblue;
 }
 
 #showcase .button{
@@ -82,16 +94,22 @@ li a:hover {
     background: aquamarine;
     text-align: center;
     margin-top: 1px;
+    color: black;
 }
 #section-b {
     padding: 20px;
     background: wheat;
-    text-align: center;   
+    text-align: center;
+    color: black;   
 }
 #section-c {
     padding: 20px;
     background:aqua;
     text-align: center; 
+    color: black;
+}
+@media (){
+    
 }
 
     
